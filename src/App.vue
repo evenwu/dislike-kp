@@ -1,12 +1,10 @@
 <template>
   <div id="app">
     <div class="content">
-      <h1>退讚，同場加映韓導</h1>
+      <h1>KP 連續失言退讚實況</h1>
       <p>邀請朋友共襄盛舉吧 👎</p>
     </div>
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDoctorKoWJ&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden"
-      scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftwherohan%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDoctorKoWJ&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     <div class="footer">
       <p>本頁由 <a target="_blank" href="https://github.com/WeiChiaChang">WeiChiaChang</a> 製作。</p>
     </div>
@@ -23,10 +21,14 @@ export default {
 html, body {
   padding: 0;
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 body {
+  font-family: sans-serif;
   background-image: url(https://upload.cc/i1/2019/09/07/9pZ7L8.gif);
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -62,5 +64,10 @@ body {
 .footer a {
   text-decoration: none;
   color: white;
+}
+
+iframe {
+  transform: scale(2.3);
+  margin: 150px 0;
 }
 </style>
