@@ -1,5 +1,8 @@
 # dislike-kp
 
+## 退讚＋直播實況一次搞定
+![](./src/assets/demo.gif)
+
 ## Project setup
 ```
 npm install
